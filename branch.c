@@ -1,4 +1,4 @@
- #include <stdio.h>
+#include <stdio.h>
 
 int main()
 {
@@ -7,7 +7,13 @@ int main()
 	printf("Введите ваш год рождения");
 	scanf("%d", &data);
 
-	 
+	age = 2017 - data;
+
+	if (age < 18) {
+		printf("Вы ребенок, вам %d лет\n", age); 	
+	}else if() {
+
+	}
 	
 	return 0;
 }
