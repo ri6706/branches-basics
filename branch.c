@@ -10,9 +10,9 @@ int main()
 	age = 2017 - data;
 
 	if (age < 18) {
-		printf("Вы ребенок, вам %d лет\n", age); 	
-	}else if() {
-
+		printf("Вы несовершеннолетний, вам %d лет\n", age); 	
+	}else if(age >= 18) {
+		printf("Вы совершеннолетний, вам %d лет\n", age);
 	}
 	
 	return 0;
