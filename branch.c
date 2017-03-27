@@ -2,11 +2,14 @@
 
 int main()
 {
-	int data = 0, age = 0;
+	int year = 0, data = 0, age = 0;
 
-	printf("Введите ваш год рождения");
-	scanf("%d", &data);
+	printf("Введите текущий год");
+	scanf("%d", &year);
 
+	printf("Введите год вашего рождения\n");
+	scanf("%d", &data)
+	
 	age = 2017 - data;
 
 	if (age < 18) {
