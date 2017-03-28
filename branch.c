@@ -10,7 +10,7 @@ int main()
 	printf("Введите год вашего рождения\n");
 	scanf("%d", &data)
 	
-	age = 2017 - data;
+	age =  year - data;
 
 	if (age < 18) {
 		printf("Вы несовершеннолетний, вам %d лет\n", age); 	
